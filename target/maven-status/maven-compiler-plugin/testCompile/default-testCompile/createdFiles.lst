@@ -1,0 +1,9 @@
+pages\BasePage.class
+pages\SportsLadiesTrainersHome.class
+pages\SportsLadies.class
+pages\SportsLadiesHome.class
+tests\SportsdTest.class
+pages\SportsHome.class
+pages\SportsTrainerDetails.class
+pages\SportsLogin.class
+tests\TestBase.class

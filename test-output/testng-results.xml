@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-08T11:29:58 GMT" name="Suite1" finished-at="2021-01-08T11:30:25 GMT" duration-ms="27633">
+    <groups>
+    </groups>
+    <test started-at="2021-01-08T11:29:58 GMT" name="SportsDirectLoginTest" finished-at="2021-01-08T11:30:25 GMT" duration-ms="27633">
+      <class name="tests.SportsdTest">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:tests.SportsdTest@e1de817]" started-at="2021-01-08T11:29:58 GMT" name="initDriver" finished-at="2021-01-08T11:30:02 GMT" duration-ms="3894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.SportsdTest@e1de817]" started-at="2021-01-08T11:30:02 GMT" name="launchApp" finished-at="2021-01-08T11:30:05 GMT" duration-ms="3525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifySportsdLogin()[pri:0, instance:tests.SportsdTest@e1de817]" started-at="2021-01-08T11:30:05 GMT" name="verifySportsdLogin" finished-at="2021-01-08T11:30:17 GMT" duration-ms="12141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySportsdLogin -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.SportsdTest@e1de817]" started-at="2021-01-08T11:30:17 GMT" name="launchApp" finished-at="2021-01-08T11:30:18 GMT" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifySportsdLogout()[pri:0, instance:tests.SportsdTest@e1de817]" started-at="2021-01-08T11:30:18 GMT" name="verifySportsdLogout" finished-at="2021-01-08T11:30:25 GMT" duration-ms="6421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySportsdLogout -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.SportsdTest@e1de817]" started-at="2021-01-08T11:30:25 GMT" name="cleanUp" finished-at="2021-01-08T11:30:25 GMT" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.SportsdTest -->
+    </test> <!-- SportsDirectLoginTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
